@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KMUTNB - มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Prompt', sans-serif;
+    }
+    .topbar {
+      background-color: #ef6c00;
+      color: white;
+    }
+    .hero {
+      background: linear-gradient(90deg, #ff9800, #ffe0b2);
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .news-card img {
+      width: 100%;
+      height: auto;
+    }
+    .footer {
+      background: #343a40;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Topbar -->
+<nav class="topbar py-2">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="d-flex flex-column">
+      <div class="d-flex align-items-center">
+        <img src="Logo.png" alt="Logo" width="50" class="me-2">
+        <div>
+          <div class="fs-5">มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</div>
+          <div style="font-size: 0.9rem; font-weight: 400;">King Mongkut's University of Technology North Bangkok</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <a href="#" class="text-white text-decoration-none">นักศึกษา</a> |
+      <a href="#" class="text-white text-decoration-none">บุคลากร</a>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg" style="background-color: #343434; font-size: 14px;">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end align-items-center" id="mainNav">
+      <ul class="navbar-nav d-flex align-items-center" style="gap: 15px;">
+        <li class="nav-item"><a class="nav-link text-white" href="#">หน้าแรก</a></li>
+        <li class="nav-item border-start border-white ps-3"><a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">เกี่ยวกับ มจพ.</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">ข้อมูลทั่วไป</a></li>
+            <li><a class="dropdown-item" href="#">ประวัติ</a></li>
+          </ul>
+        </li>
+        <li class="nav-item border-start border-white ps-3"><a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">คณะและหน่วยงาน</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">คณะวิศวกรรมศาสตร์</a></li>
+            <li><a class="dropdown-item" href="#">คณะเทคโนโลยีสื่อสารมวลชน</a></li>
+          </ul>
+        </li>
+        <li class="nav-item border-start border-white ps-3"><a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">รับสมัครนักศึกษา</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">TCAS</a></li>
+            <li><a class="dropdown-item" href="#">สมัครออนไลน์</a></li>
+          </ul>
+        </li>
+        <li class="nav-item border-start border-white ps-3"><a class="nav-link text-white" href="#">ข่าวสาร</a></li>
+        <li class="nav-item border-start border-white ps-3"><a class="nav-link text-white" href="#">ติดต่อ</a></li>
+        <li class="nav-item border-start border-white ps-3"><a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ชีวิตในร่วมมหาวิทยาลัย</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">กิจกรรมนักศึกษา</a></li>
+            <li><a class="dropdown-item" href="#">ชมรม</a></li>
+          </ul>
+        </li>
+        <li class="nav-item ps-3 ms-3 border-start border-white">
+  <a href="https://kmutnb.ac.th/ITA.aspx" target="_blank">
+    <img src="ITA.png" alt="ITA Logo" style="height: 40px;">
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="Screenshot 2025-08-14 160312.png"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="Screenshot 2025-08-14 160334.png" class="d-block w-100"
+                    alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="Screenshot 2025-08-14 160341.png" class="d-block w-100"
+                    alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+<style>
+  /* จัดแท็บเมนูให้อยู่ตรงกลาง */
+  .nav-tabs {
+    justify-content: center !important;
+    border-bottom: 3px solid #f27622; /* สีเส้นด้านล่าง */
+  }
+  /* ปรับปุ่มแท็บ */
+  .nav-link {
+    font-weight: 600;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 20px;
+    border: none;
+  }
+  .nav-link.active {
+    color: #f27622;
+    border-bottom: 3px solid #f27622;
+    background-color: transparent;
+  }
+  /* ไอคอนให้อยู่ข้างหน้า */
+  .nav-link i {
+    font-size: 18px;
+  }
+  /* เอาเส้นขอบระหว่างแท็บออก */
+  .nav-item + .nav-item {
+    margin-left: 20px;
+  }
+</style>
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="university-news-tab" data-bs-toggle="tab" data-bs-target="#university-news" type="button" role="tab" aria-controls="university-news" aria-selected="true">
+      🏛️ ข่าวมหาวิทยาลัย
+    </button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="research-fund-tab" data-bs-toggle="tab" data-bs-target="#research-fund" type="button" role="tab" aria-controls="research-fund" aria-selected="false">
+      📚 ข่าวทุนวิจัย/อบรม
+    </button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="student-news-tab" data-bs-toggle="tab" data-bs-target="#student-news" type="button" role="tab" aria-controls="student-news" aria-selected="false">
+      👤 ข่าวนักศึกษา
+    </button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="student-admission-tab" data-bs-toggle="tab" data-bs-target="#student-admission" type="button" role="tab" aria-controls="student-admission" aria-selected="false">
+      📖 ข่าวรับสมัครนักศึกษา
+    </button>
+  </li>
+</ul>
+
+
+<style>
+  .card-img-top {
+    width: 100%;        /* เต็มความกว้างของการ์ด */
+    height: 200px;      /* กำหนดความสูงเท่ากัน */
+    object-fit: cover;  /* ครอบคลุมพื้นที่โดยไม่ผิดสัดส่วน */
+  }
+</style>
+
+<div class="tab-content" id="myTabContent" style="margin-top: 20px;">
+  <!-- ข่าวมหาวิทยาลัย -->
+  <div class="tab-pane fade show active" id="university-news" role="tabpanel" aria-labelledby="university-news-tab" tabindex="0">
+    <section class="py-5">
+      <div class="container">
+        <h3 class="mb-4">ข่าวมหาวิทยาลัย</h3>
+        <div class="d-flex justify-content-between flex-wrap">
+          <div class="card" style="width: 23%;">
+            <img src="program-TCAS69.jpg" alt="TCAS" class="card-img-top">
+            <div class="card-body">
+              <h6 class="card-title">ประกาศ TCAS69</h6>
+              <p class="card-text">เปิดรับสมัครนักศึกษาใหม่ ปีการศึกษา 2569</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 23%;">
+            <img src="ปกขาว-01.jpg" alt="กิจกรรม" class="card-img-top">
+            <div class="card-body">
+              <h6 class="card-title">Open House 2568</h6>
+              <p class="card-text">เชิญร่วมงานเปิดบ้าน มจพ. 13 ก.ย.</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 23%;">
+            <img src="ปชส-ขนทะเบยนบณฑต-2567_THAI.png" alt="ICES" class="card-img-top">
+            <div class="card-body">
+              <h6 class="card-title">ICES 2025</h6>
+              <p class="card-text">ประชุมวิชาการระดับนานาชาติ</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 23%;">
+            <img src="514962753_1604813727394817_8722604223677411850_n.jpg" alt="ทุน" class="card-img-top">
+            <div class="card-body">
+              <h6 class="card-title">ทุน มจพ.</h6>
+              <p class="card-text">เปิดรับสมัครทุนการศึกษาปี 2568</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+
+  <!-- ข่าวทุนวิจัย/อบรม -->
+  <style>
+  .card-img-top {
+    width: 100%;        /* เต็มความกว้างของการ์ด */
+    height: 200px;      /* กำหนดความสูงเท่ากัน */
+    object-fit: cover;  /* ครอบคลุมพื้นที่โดยไม่ผิดสัดส่วน */
+  }
+</style>
+
+<div class="tab-content" id="myTabContent" style="margin-top: 20px;">
+  <!-- ข่าวมหาวิทยาลัย -->
+  <div class="tab-pane fade show active" id="university-news" role="tabpanel" aria-labelledby="university-news-tab" tabindex="0">
+    <section class="py-5">
+      <div class="container">
+        <h3 class="mb-4">ข่าวมหาวิทยาลัย</h3>
+        <div class="d-flex justify-content-between flex-wrap">
+          <div class="card" style="width: 23%;">
+            <img src="program-TCAS69.jpg" alt="TCAS" class="card-img-top">
+            <div class="card-body">
+              <h6 class="card-title">ประกาศ TCAS69</h6>
+              <p class="card-text">เปิดรับสมัครนักศึกษาใหม่ ปีการศึกษา 2569</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 23%;">
+            <img src="ปกขาว-01.jpg" alt="กิจกรรม" class="card-img-top">
+            <div class="card-body">
+              <h6 class="card-title">Open House 2568</h6>
+              <p class="card-text">เชิญร่วมงานเปิดบ้าน มจพ. 13 ก.ย.</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 23%;">
+            <img src="ปชส-ขนทะเบยนบณฑต-2567_THAI.png" alt="ICES" class="card-img-top">
+            <div class="card-body">
+              <h6 class="card-title">ICES 2025</h6>
+              <p class="card-text">ประชุมวิชาการระดับนานาชาติ</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 23%;">
+            <img src="514962753_1604813727394817_8722604223677411850_n.jpg" alt="ทุน" class="card-img-top">
+            <div class="card-body">
+              <h6 class="card-title">ทุน มจพ.</h6>
+              <p class="card-text">เปิดรับสมัครทุนการศึกษาปี 2568</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+
+  <!-- ข่าวนักศึกษา -->
+  <style>
+  .card-img-top {
+    width: 100%;        /* เต็มความกว้างของการ์ด */
+    height: 200px;      /* กำหนดความสูงเท่ากัน */
+    object-fit: cover;  /* ครอบคลุมพื้นที่โดยไม่ผิดสัดส่วน */
+  }
+</style>
+
+<div class="tab-content" id="myTabContent" style="margin-top: 20px;">
+  <!-- ข่าวมหาวิทยาลัย -->
+  <div class="tab-pane fade show active" id="university-news" role="tabpanel" aria-labelledby="university-news-tab" tabindex="0">
+    <section class="py-5">
+      <div class="container">
+        <h3 class="mb-4">ข่าวมหาวิทยาลัย</h3>
+        <div class="d-flex justify-content-between flex-wrap">
+          <div class="card" style="width: 23%;">
+            <img src="program-TCAS69.jpg" alt="TCAS" class="card-img-top">
+            <div class="card-body">
+              <h6 class="card-title">ประกาศ TCAS69</h6>
+              <p class="card-text">เปิดรับสมัครนักศึกษาใหม่ ปีการศึกษา 2569</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 23%;">
+            <img src="ปกขาว-01.jpg" alt="กิจกรรม" class="card-img-top">
+            <div class="card-body">
+              <h6 class="card-title">Open House 2568</h6>
+              <p class="card-text">เชิญร่วมงานเปิดบ้าน มจพ. 13 ก.ย.</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 23%;">
+            <img src="ปชส-ขนทะเบยนบณฑต-2567_THAI.png" alt="ICES" class="card-img-top">
+            <div class="card-body">
+              <h6 class="card-title">ICES 2025</h6>
+              <p class="card-text">ประชุมวิชาการระดับนานาชาติ</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 23%;">
+            <img src="514962753_1604813727394817_8722604223677411850_n.jpg" alt="ทุน" class="card-img-top">
+            <div class="card-body">
+              <h6 class="card-title">ทุน มจพ.</h6>
+              <p class="card-text">เปิดรับสมัครทุนการศึกษาปี 2568</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+  <!-- ข่าวรับสมัครนักศึกษา -->
+  <style>
+  .card-img-top {
+    width: 100%;        /* เต็มความกว้างของการ์ด */
+    height: 200px;      /* กำหนดความสูงเท่ากัน */
+    object-fit: cover;  /* ครอบคลุมพื้นที่โดยไม่ผิดสัดส่วน */
+  }
+</style>
+
+<div class="tab-content" id="myTabContent" style="margin-top: 20px;">
+  <!-- ข่าวมหาวิทยาลัย -->
+  <div class="tab-pane fade show active" id="university-news" role="tabpanel" aria-labelledby="university-news-tab" tabindex="0">
+    <section class="py-5">
+      <div class="container">
+        <h3 class="mb-4">ข่าวมหาวิทยาลัย</h3>
+        <div class="d-flex justify-content-between flex-wrap">
+          <div class="card" style="width: 23%;">
+            <img src="program-TCAS69.jpg" alt="TCAS" class="card-img-top">
+            <div class="card-body">
+              <h6 class="card-title">ประกาศ TCAS69</h6>
+              <p class="card-text">เปิดรับสมัครนักศึกษาใหม่ ปีการศึกษา 2569</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 23%;">
+            <img src="ปกขาว-01.jpg" alt="กิจกรรม" class="card-img-top">
+            <div class="card-body">
+              <h6 class="card-title">Open House 2568</h6>
+              <p class="card-text">เชิญร่วมงานเปิดบ้าน มจพ. 13 ก.ย.</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 23%;">
+            <img src="ปชส-ขนทะเบยนบณฑต-2567_THAI.png" alt="ICES" class="card-img-top">
+            <div class="card-body">
+              <h6 class="card-title">ICES 2025</h6>
+              <p class="card-text">ประชุมวิชาการระดับนานาชาติ</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 23%;">
+            <img src="514962753_1604813727394817_8722604223677411850_n.jpg" alt="ทุน" class="card-img-top">
+            <div class="card-body">
+              <h6 class="card-title">ทุน มจพ.</h6>
+              <p class="card-text">เปิดรับสมัครทุนการศึกษาปี 2568</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+
+
+
+
+  <!-- Footer -->
+ <footer class="bg-dark text-light pt-5 pb-4">
+  <div class="container">
+    <div class="row">
+      <!-- คอลัมน์ 1 -->
+      <div class="col-md-4 mb-3">
+        <h6 class="text-warning">อื่นๆ</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light text-decoration-underline">สมัครงาน</a></li>
+          <li><a href="#" class="text-light text-decoration-underline">จัดซื้อจัดจ้าง</a></li>
+          <li><a href="#" class="text-light text-decoration-underline">แผนที่</a></li>
+          <li><a href="#" class="text-light text-decoration-underline">ถาม-ตอบ (Q&A)</a></li>
+          <li><a href="#" class="text-light text-decoration-underline">ติดต่อสอบถาม/เสนอแนะ</a></li>
+          <li><a href="#" class="text-light text-decoration-underline">ร้องเรียนทุจริตและประพฤติมิชอบ</a></li>
+          <li><a href="#" class="text-light text-decoration-underline">ศูนย์ข้อมูลข่าวสารอิเล็กทรอนิกส์ของราชการ มจพ.</a></li>
+        </ul>
+      </div>
+      
+      <!-- คอลัมน์ 2 -->
+      <div class="col-md-4 mb-3 text-warning">
+        <h6>ติดต่อ มจพ. กรุงเทพฯ</h6>
+        <p><i class="bi bi-geo-alt-fill"></i> มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ 1518 ถนนประชาราษฎร์ 1 แขวงวงศ์สว่าง เขตบางซื่อ กรุงเทพฯ 10800</p>
+        <p><i class="bi bi-telephone-fill"></i> โทรศัพท์ : +66 2 555-2000</p>
+        <p><i class="bi bi-printer-fill"></i> แฟกซ์ : +66 2 587-4350</p>
+        <p><i class="bi bi-envelope-fill"></i> อีเมล : contact@op.kmutnb.ac.th</p>
+      </div>
+      
+      <!-- คอลัมน์ 3 -->
+      <div class="col-md-4 mb-3">
+        <h6 class="text-warning">ติดตามเราได้ที่</h6>
+        <div class="mb-3">
+          <a href="#" class="text-light me-3 fs-4"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-light me-3 fs-4"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-light me-3 fs-4"><i class="bi bi-youtube"></i></a>
+          <a href="#" class="text-light me-3 fs-4"><i class="bi bi-tiktok"></i></a>
+        </div>
+        <img src="/path/to/logo-footer.png" alt="KMUTNB Logo" class="img-fluid">
+      </div>
+    </div>
+
+    <div class="text-center text-light mt-4">
+      <small>Copyright © 2018 King Mongkut's University of Technology North Bangkok</small>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
